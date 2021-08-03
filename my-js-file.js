@@ -11,9 +11,9 @@ const generateNewCard = (taskData) => `
   </div>
   <div class="card-body">
   <img class="card-img-top" src=${taskData.imageUrl} alt="...">
-    <h5 class="card-title mt-3 fw-bold text-primary">id=${taskData.taskTitle}</h5>
-    <p class="card-text">id=${taskData.taskDescription}</p>
-    <a href="#" class="btn btn-primary">id=${taskData.taskType}</a>
+    <h5 class="card-title mt-3 fw-bold text-primary">${taskData.taskTitle}</h5>
+    <p class="card-text">${taskData.taskDescription}</p>
+    <a href="#" class="btn btn-primary">${taskData.taskType}</a>
   </div>
   </div>
   </div>`;
